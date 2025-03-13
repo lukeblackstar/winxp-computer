@@ -1,4 +1,4 @@
-# Simulação Básica do Windows XP
+# Simulação do Windows XP
 
 Este projeto é uma simulação simples do sistema operacional **Windows XP**, criada utilizando apenas **HTML**, **CSS** e **JavaScript**. A ideia é recriar um ambiente gráfico do Windows XP de maneira interativa, permitindo que o usuário tenha uma experiência nostálgica e divertida diretamente no navegador.
 
