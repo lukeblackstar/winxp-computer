@@ -20,3 +20,5 @@ Este projeto é uma simulação simples do sistema operacional **Windows XP**, c
    ```bash
    git clone https://github.com/lukeblackstar/winxp-computer.git
 ![Image](https://github.com/user-attachments/assets/a2f63e27-e847-47d2-b6b9-644f717060a2)
+
+![Image](https://github.com/user-attachments/assets/51a1dab6-2c3d-4d87-a5af-1f2f8dac3db4)
