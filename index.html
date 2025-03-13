@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Windows XP Simulator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Tahoma&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="desktop">
+    <div class="monitor-container">
+      <div class="monitor">
+        <div class="power-light"></div>
+        <div class="monitor-screen">
+          <div class="monitor-content">
+            <div class="monitor-desktop">
+              <div class="icons-container">
+                <div class="desktop-icon" data-app="my-computer">
+                  <img src="https://win98icons.alexmeub.com/icons/png/computer-4.png" alt="My Computer">
+                  <span>My Computer</span>
+                </div>
+                <div class="desktop-icon" data-app="internet-explorer">
+                  <img src="https://icons.iconarchive.com/icons/photoshopedia/xedia/256/Internet-Explorer-icon.png" alt="Internet Explorer">
+                  <span>Internet Explorer</span>
+                </div>
+                <div class="desktop-icon" data-app="recycle-bin">
+                  <img src="https://win98icons.alexmeub.com/icons/png/recycle_bin_empty-0.png" alt="Recycle Bin">
+                  <span>Recycle Bin</span>
+                </div>
+                <div class="desktop-icon" data-app="cs16">
+                  <img src="https://icons.iconarchive.com/icons/franksouza183/fs/256/Apps-counter-strike-icon.png" alt="CS 1.6">
+                  <span>CS 1.6</span>
+                </div>
+                <div class="desktop-icon" data-app="steam">
+                  <img src="https://win98icons.alexmeub.com/icons/png/cd_drive-5.png" alt="Steam">
+                  <span>Steam</span>
+                </div>
+                <div class="desktop-icon" data-app="winamp">
+                  <img src="https://icons.iconarchive.com/icons/hopstarter/orb/256/Winamp-icon.png" alt="Winamp">
+                  <span>Winamp</span>
+                </div>
+                <div class="desktop-icon" data-app="msn">
+                  <img src="https://images.icon-icons.com/203/PNG/96/diagram-48_24469.png" alt="MSN Messenger">
+                  <span>MSN Messenger</span>
+                </div>
+                <div class="desktop-icon" data-app="notepad">
+                  <img src="https://win98icons.alexmeub.com/icons/png/notepad-0.png" alt="Notepad">
+                  <span>Notepad</span>
+                </div>
+              </div>
+
+              <div class="taskbar">
+                <div class="start-button">
+                  <img src="https://icons.iconarchive.com/icons/ncrow/mega-pack-2/256/Windows-Media-Center-icon.png" alt="Start">
+                  <span>Start</span>
+                </div>
+                <div class="taskbar-right">
+                  <div class="taskbar-tray">
+                    <img src="https://icons.iconarchive.com/icons/iconshock/super-vista-general/256/music-icon.png" alt="Volume" class="taskbar-tray-icon">
+                  </div>
+                  <div id="taskbar-time" class="taskbar-time"></div>
+                </div>
+              </div>
+              
+              <div class="context-menu" id="desktop-context-menu">
+                <div class="context-menu-item">View</div>
+                <div class="context-menu-item">Sort By</div>
+                <div class="context-menu-item">Refresh</div>
+                <div class="context-menu-separator"></div>
+                <div class="context-menu-item">New</div>
+                <div class="context-menu-item">Properties</div>
+              </div>
+              
+              <div class="startup-screen">
+                <img src="https://www.lifewire.com/thmb/FCfnemlWXwHZeHd0-lyHf0ayMiI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/windows-xp-splash-screen-5a6798008e1b6e001a112d7c.png" alt="Windows XP" class="startup-logo">
+                <div class="startup-loading">
+                  <div class="startup-loading-progress"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="monitor-base"></div>
+      </div>
+      <div class="pc-tower">
+        <div class="tower-front">
+          <div class="cd-drive"></div>
+          <div class="power-button"></div>
+          <div class="usb-ports">
+            <div class="usb-port"></div>
+            <div class="usb-port"></div>
+            <div class="usb-port"></div>
+            <div class="usb-port"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="window" id="app-window">
+      <div class="window-header">
+        <div class="window-title">Application</div>
+        <div class="window-controls">
+          <span class="minimize">_</span>
+          <span class="maximize">□</span>
+          <span class="close">×</span>
+        </div>
+      </div>
+      <div class="window-content">
+        <p>This application is not available in this simulation.</p>
+      </div>
+    </div>
+
+    <div class="start-menu" id="start-menu">
+      <div class="start-header">
+        <div class="user-info">
+          <img src="https://win98icons.alexmeub.com/icons/png/user-0.png" alt="User">
+          <span>User</span>
+        </div>
+      </div>
+      <div class="start-items">
+        <div class="start-item">
+          <img src="https://win98icons.alexmeub.com/icons/png/earth-0.png" alt="Internet">
+          <span>Internet</span>
+        </div>
+        <div class="start-item">
+          <img src="https://win98icons.alexmeub.com/icons/png/mail-0.png" alt="E-mail">
+          <span>E-mail</span>
+        </div>
+        <div class="start-item">
+          <img src="https://win98icons.alexmeub.com/icons/png/msn2-0.png" alt="MSN Messenger">
+          <span>MSN Messenger</span>
+        </div>
+        <div class="start-item">
+          <img src="https://win98icons.alexmeub.com/icons/png/notepad-0.png" alt="Notepad">
+          <span>Notepad</span>
+        </div>
+        <div class="start-item">
+          <img src="https://win98icons.alexmeub.com/icons/png/multimedia-4.png" alt="Media Player">
+          <span>Media Player</span>
+        </div>
+        <div class="separator"></div>
+        <div class="start-item">
+          <img src="https://win98icons.alexmeub.com/icons/png/help_book-0.png" alt="Help">
+          <span>Help</span>
+        </div>
+        <div class="start-item">
+          <img src="https://win98icons.alexmeub.com/icons/png/computer-0.png" alt="Shut Down">
+          <span>Shut Down</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
